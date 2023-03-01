@@ -4,7 +4,7 @@ import TodoList from './TodoList.js';
 
 function App() {
   
-  const [newTodo, setNewTodo] = React.useState(""); 
+  const [newTodo, setNewTodo] = React.useState(''); 
   
   return (
     <div>

@@ -19,9 +19,9 @@ const todoList = [
 function TodoList() {
     return (
       <ul>
-        {todoList.map( (item) => {
+        {todoList.map( function(todo) {
           return (
-            <TodoListItem key={item} />
+            <TodoListItem key={todo.id} item={todo} />
           );
         })}
       </ul>
