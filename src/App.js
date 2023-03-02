@@ -7,7 +7,7 @@ function App() {
   let [todoList, setTodoList] = React.useState([]); 
   
   function addTodo(newTodo) {
-    setTodoList([...todoList, newTodo])
+    setTodoList([...todoList, newTodo]);
   }
   
   return (

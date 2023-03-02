@@ -11,12 +11,11 @@ function AddTodoForm(props) {
 
     function handleAddTodo(event) {
         event.preventDefault();
-        todoTitle = '';
         props.onAddTodo({
             title: todoTitle,
             id: Date.now()
         });
-        
+        todoTitle = '';
     }
 
     return (
